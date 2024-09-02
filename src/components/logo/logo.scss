@@ -1,0 +1,61 @@
+.intro {
+  //   background-color: var(--color-bg);
+  //   height: 100%;
+  //   text-align: center;
+  //   place-items: center;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   font-family: 'SunnyDesign-Regular';
+  //   .intro__title {
+  //     z-index: 0;
+  //     position: relative;
+  //     place-items: center;
+  //     background-image: url(../../assets/svg/SUNLI.svg);
+  //     background-repeat: no-repeat;
+  //     background-position: center;
+  //     background-size: contain;
+  //     margin: 0;
+  //     height: 100vh;
+  //     width: 60vw;
+  //     line-height: 0.9;
+  //     font-weight: 400;
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
+  //     .typed-cursor {
+  //       font-size: clamp(1.5rem, 10vw, 12rem);
+  //       color: rgb(239, 0, 0);
+  //     }
+  //     .typed-fade-out {
+  //       opacity: 0;
+  //       transition: opacity 0.25s;
+  //       -webkit-animation: 0;
+  //       animation: 0;
+  //     }
+  //     .intro__title-pre {
+  //       //   font-size: clamp(1.5rem, 12vw, 13rem);
+  //       //   max-width: 15ch;
+  //       color: rgb(239, 0, 0);
+  //       white-space: nowrap;
+  //       // white-space: pre-wrap;
+  //       //   line-height: 300px;
+  //     }
+  //     .intro__title-sub {
+  //       font-size: clamp(2rem, 10vw, 5rem);
+  //       color: var(--color-title);
+  //       margin-top: 4vh;
+  //     }
+  //   }
+  .intro__info {
+    // max-width: 20ch;
+    // margin-bottom: 3rem;
+    // line-height: 1.2;
+    align-self: end;
+    // font-size: clamp(1.5rem, 20vw, 1.5rem); /* 分别是最小值、首选值和最大值 */
+  }
+}
+.cursor {
+  display: none;
+  color: #ef0000;
+}

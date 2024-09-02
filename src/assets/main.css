@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --theme-color: rgb(239, 0, 0) font-size: 16px;
+  --color-text: #fff;
+  --color-bg: #000;
+  --color-link: #fff;
+  --color-link-hover: #907030;
+  --color-title: #907030;
+  --perspective: 1500px;
+  --grid-item-ratio: 1.5;
+  --grid-width: 100%;
+  --grid-height: auto;
+  --grid-gap: 2vw;
+  --grid-columns: 4;
+  --grid-inner-scale: 1;
+}
+::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+  -ms-overflow-style: none; /* IE 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+@font-face {
+  font-family: 'SunnyDesign-Regular';
+  src: url('../assets/font/SunnyDesign-Regular.ttf');
+}
+@font-face {
+  font-family: 'Grot10-MediumWEB';
+  src: url('../assets/font/Grot10-MediumWEB.woff2');
+}
+
+@layer components {
+  .center {
+    @apply justify-center flex items-center;
+  }
+  .sunnyDesign-font {
+    @apply font-["SunnyDesign-Regular"];
+  }
+}
